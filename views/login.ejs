@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      .field {
+        margin: 9px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Login Page</h1>
+    <form method="POST" action="/user/login">
+      <div class="field">
+        <label>email</label> <input type="text" name="email" required /><br />
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="text" name="password" required /><br />
+      </div>
+      <div class="field"><button type="submit">Login</button></div>
+    </form>
+    <p>Don't have an account</p>
+    <button><a href="/signup">Signup</a></button>
+  </body>
+</html>
