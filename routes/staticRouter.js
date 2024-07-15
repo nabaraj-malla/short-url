@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   const user = req.cookies.uid;
-  console.log("user", user);
+  console.log("user hello", user);
   // if (!req.user) {
   //   console.log("user not found");
   //   return res.redirect("/staticRouter/login");
